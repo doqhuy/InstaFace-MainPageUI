@@ -1,0 +1,123 @@
+.uploadsection_container{
+    display:flex;
+    align-items: center;
+    height: 50px;
+    width: auto;
+    margin-top: 10px;
+    justify-content:flex-start;
+    background-color: #242526;
+}
+.uploadsection_main{
+    display:flex;
+    background-color: #242526;
+    width:100%;
+}
+.uploadsection_img{
+    margin-left: 10px;
+    border-radius: 33px;
+    max-width:40px;
+    max-height:40px;
+    margin-right:10px;
+}
+.uploadsection_box{
+    height:38px;
+    width:550px;
+    border: 0px;
+    background-color:#ffffff;
+    border-radius:15px;
+}
+.uploadsection_box{
+    color: #3a3b3c;
+    font-family: inherit;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    padding-left:3%;
+}
+.uploadsection_button{
+    display: flex;
+    align-items:center;
+    background-color: #242526;
+    border-radius:15px;
+    height: auto;
+    margin-left: 25px;
+}
+.uploadsection_button img{
+    display: flex;
+    max-width:30px;
+    max-height:30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.uploadsection_buttonname{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+    padding-right: 10px;
+}
+.uploadsection_button:hover{
+    background-color: #3a3b3c;
+}
+@media only screen and (max-width: 1500px) {
+    .uploadsection_box{
+        height:38px;
+        width:505px;
+        border: 0px;
+        background-color:#ffffff;
+        border-radius:15px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .uploadsection_box{
+        height:38px;
+        width:445px;
+        border: 0px;
+        background-color:#ffffff;
+        border-radius:15px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    .uploadsection_box{
+        height:38px;
+        width:310px;
+        border: 0px;
+        background-color:#ffffff;
+        border-radius:15px;
+    }
+    .uploadsection_button{
+        display: flex;
+        align-items:center;
+        background-color: #242526;
+        border-radius:15px;
+        height: auto;
+        margin-left: 25px;
+        width:50px;
+    }
+    .uploadsection_buttonname{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .uploadsection_box{
+        height:38px;
+        width:345px;
+        border: 0px;
+        background-color:#ffffff;
+        border-radius:15px;
+    }
+    .uploadsection_button{
+        display: flex;
+        align-items:center;
+        background-color: #242526;
+        border-radius:15px;
+        height: auto;
+        margin-left: 25px;
+        width:50px;
+    }
+    .uploadsection_buttonname{
+        visibility: hidden;
+    }
+}

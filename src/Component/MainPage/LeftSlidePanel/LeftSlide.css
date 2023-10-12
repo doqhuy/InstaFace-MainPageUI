@@ -1,0 +1,34 @@
+.left_container{
+    background: #18191a;
+    height:100%;
+    max-width:100%;
+}
+.left_container_last{
+    display:grid;
+    margin-top:120%;
+    margin-left:5%;
+    text-align:left;
+    height:auto;
+    width:auto;
+}
+.left_container_last_text{
+    font-weight: 490;
+    font-size: 17px;
+    color: #dfdfdf;
+    font-family: inherit;
+}
+.left_container_last_text:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 920px) {
+    .left_container_last_text{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .left_container{
+        display:none;
+        grid-template-rows: auto auto 0px;
+    }
+}

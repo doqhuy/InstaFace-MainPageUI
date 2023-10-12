@@ -1,0 +1,143 @@
+.postcontainer_main{
+    margin-top:20px;
+    background: #18191a;
+    max-width: 100%;
+}
+.post_container{
+    margin-top:20px;
+    width:auto;
+    max-width: 100%;
+}
+.post_main{
+    background: #242526;
+    border-radius: 2px;
+    width:auto;
+}
+.post_header{
+    margin-top:10px;
+    margin-left:5px;
+    display: flex;
+    height:60px;
+    width:150px;
+}
+.post_header_avatar{
+    margin-top:5px;
+    margin-left:0px;
+    border-radius: 3px;
+    padding:4px;
+}
+.post_avatar{
+    max-width:40px;
+    max-height:40px;
+}
+.post_header_name{
+    margin-top: 18px;
+    margin-left:5px;
+    color: #dfdfdf;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+}
+.post_header_name:hover{
+    text-decoration:underline;
+}
+.post_decriptsion{
+    display:flex;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.post_decriptsion{
+    color: #dfdfdf;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 480;
+}
+.post_image{
+    background-color: #242526;
+    max-width: 768px;
+    height:100%;
+}
+.post_image img{
+    max-width:100%;
+    max-height:668px;
+    border-radius: 10px;
+}
+.post_button{
+    margin-top:5px;
+    margin-bottom:10px;
+    margin-left:10px;
+    display: flex;
+    height:35px;
+    width:849px;
+}
+.post_icon img{
+    margin-bottom:10px;
+    margin-right: 10px;
+    max-width: 35px;
+}
+.post_likecount{
+    display:flex;
+    margin-left:15px;
+    margin-bottom:10px;
+}
+.post_likecount{
+    color: #dfdfdf;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+}
+.post_comment{
+    display: flex;
+    border-radius:3px;
+    margin-bottom:10px;
+    height: 40px;
+    max-width: auto;
+}
+.post_commentimg{
+    max-width:40px;
+    max-height:40px;
+    margin-left:15px;
+    margin-right:5px;
+    border-radius: 33px;
+}
+.post_commentbox{
+    height: 38px;
+    width: 252%;
+    border:0px;
+    background-color: #ffffff;
+    border-radius:20px;
+}
+.post_commentbox{
+    color: #3a3b3c;
+    font-family: inherit;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    padding-left:24px;
+    margin-left:7px;
+}
+.post_commentmore{
+    display:flex;
+    margin-left:13px;
+    padding-bottom:10px;
+}
+.post_commentmore{
+    color: #dfdfdf;
+    font-family: inherit;
+    font-size: 17px;
+    font-weight: 500;
+}
+.post_commentmore:hover{
+    text-decoration:underline;
+}
+@media only screen and (max-width: 500px) {
+    .post_comment{
+        display: flex;
+        border-radius:3px;
+        margin-bottom:10px;
+        height: 40px;
+        max-width:215px;
+    }
+}

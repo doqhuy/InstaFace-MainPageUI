@@ -1,0 +1,14 @@
+.storybar_container{
+    display:flex;
+    overflow: auto;
+    max-width: auto;   
+    scrollbar-width:thin;
+    -ms-overflow-style: none;
+}
+.story_container{
+    height:250px;
+    width:141px;
+    margin-top:16px;
+    margin-left:6px;
+    border-radius: 18px;
+}
